@@ -1,0 +1,94 @@
+#topnav{
+    display: flex;
+    gap: 10px;
+}
+#midnav{
+    display: flex;
+    gap: 10px;
+    background-color:green;
+    color: white;
+}
+#navbar{
+    display: flex;
+    gap: 10px;
+}
+#summercolum{
+    
+    display: flex;
+    gap: 5px;
+}
+#heading2{
+    display: flex;
+    gap: 1px;
+}
+#heading3{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+#heading4{
+    display: flex;
+    gap: 5px;
+}
+button{
+    background-color: green;
+}
+
+@media screen and (max-width:400px) and (min-width:1200px){
+    #topnav{
+        display: flex;
+        gap: 1px;
+        flex-wrap: wrap;
+
+    }
+    #midnav{
+        display: flex;
+        gap: 1px;
+    flex-wrap: wrap;
+    }
+    #navbar{
+         display: flex; 
+        gap:1px;
+        flex-wrap: wrap;
+        
+
+    }
+    #summercolum{
+        display: flex;
+        flex-wrap: wrap;
+
+        
+
+
+    }
+    /* #heading1{
+        flex-wrap: wrap;
+    } */
+    #heading2{
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: smaller;
+    }
+    #heading3{
+        display: flex;
+        gap: 1px;
+        flex-wrap: wrap;
+       
+    }
+    #heading4{
+        display: flex;
+        gap: 1px;
+        flex-wrap: wrap;
+        width: fit-content;
+    }
+
+
+
+
+}
+
+
+
+
+
+    
