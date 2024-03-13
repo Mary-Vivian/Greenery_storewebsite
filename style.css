@@ -51,6 +51,15 @@ padding-bottom: 10%;
 #heading7{
     display: flex;
 }
+#heading8{
+    display: flex;
+    
+
+}
+#clientsbar{
+    text-align: center;
+    color: chartreuse;
+}
 
 @media screen and (max-width:1200px) and (min-width:0px){
     #topnav{
@@ -79,9 +88,7 @@ padding-bottom: 10%;
 
 
     }
-    /* #heading1{
-        flex-wrap: wrap;
-    } */
+    
     #heading2{
         flex-wrap: wrap;
         flex-direction: row;
@@ -116,6 +123,10 @@ padding-bottom: 10%;
             display: flex;
             flex-wrap: wrap;
         }
+        #heading8{
+            flex-wrap: wrap;
+        }
+        
 
 
 
