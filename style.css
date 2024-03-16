@@ -1,6 +1,21 @@
 #topnav{
-    display: flex;
-    gap: 10px;
+    display: grid;
+    grid-column: 20%20%;
+    gap: 20%; 
+    padding-bottom: 3%; 
+}
+#icons{
+    padding-left:80%;
+}
+#button1{
+    border-radius:15px ;
+}
+body{
+    text-align: justify;
+    border: solid 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aqua;
 }
 #midnav{
     display: flex;
@@ -10,17 +25,46 @@
 }
 #navbar{
     display: flex;
-    gap: 10px;
+    gap: 5%;
+    padding-bottom: 3%;
+}
+#blackvase{
+    padding-left: 10%;
+    display: flex;
+    font-size: larger;
+    padding-bottom: 3%;
 }
 #summercolum{
     
     display: flex;
-    gap: 1px;
+    gap: 5%;
 }
+
 #heading2{
     display: flex;
-    gap: 1px;
+    gap: 5%;
+    padding-bottom: 5%;
 }
+#sale{
+    display: flex;
+}
+#plants{
+    display: flex;
+}
+#potted{
+    display: flex;
+}
+#arrivals{
+    display: flex;
+    gap:5%;
+    padding-bottom: 10px;
+
+}
+#glassvase{
+    padding-left: 5%;
+
+}
+
 #heading3{
     display: flex;
     gap: 5px;
@@ -28,7 +72,7 @@
 }
 #heading4{
     display: flex;
-    gap: 5px;
+    gap: 5%;
 }
 button{
     background-color: green;
@@ -36,10 +80,24 @@ button{
 #feature{
     text-align: center;
 }
+#treebtl{
+    display: flex;
+    gap:5%;
+    padding-left: 20%;
+}
 #heading5{
 display: flex;
 gap: 10px;
-padding-bottom: 10%;
+padding-bottom: 2%;
+
+}
+#aliquam{
+    display: flex;
+}
+#living{
+    text-align: center;
+    padding-bottom: 5%;
+
 
 }
 #heading6{
@@ -51,14 +109,30 @@ padding-bottom: 10%;
 #heading7{
     display: flex;
 }
-#heading8{
+#headingfurniture{
     display: flex;
+}
+.heading8{
+    display: inline-flex
+
     
 
 }
 #clientsbar{
     text-align: center;
     color: chartreuse;
+}
+#ladys{
+    gap: 25%;
+    text-align: center;
+}
+#range{
+    text-align: center;
+}
+#footer{
+    display: flex;
+    gap: 10%;
+    text-align: center;
 }
 
 @media screen and (max-width:1200px) and (min-width:0px){
@@ -77,9 +151,9 @@ padding-bottom: 10%;
          display: flex; 
         gap:1px;
         flex-wrap: wrap;
-        
+         
 
-    }
+     }
     #summercolum{
         display: flex;
         flex-wrap: wrap;
@@ -87,8 +161,8 @@ padding-bottom: 10%;
         
 
 
-    }
-    
+    } 
+     
     #heading2{
         flex-wrap: wrap;
         flex-direction: row;
@@ -105,8 +179,9 @@ padding-bottom: 10%;
         gap: 1px;
         flex-wrap: wrap;
         width: fit-content;
+        flex-direction: row;
     }
-    #heading5{
+    #heading5{ 
         display: flex;
         gap: 1px;
         flex-wrap: wrap;
@@ -114,8 +189,7 @@ padding-bottom: 10%;
         
         }
         #heading6{
-            display: flex;
-            gap: 1px;
+           
             flex-wrap: wrap;
         
         }
@@ -123,7 +197,19 @@ padding-bottom: 10%;
             display: flex;
             flex-wrap: wrap;
         }
-        #heading8{
+        .heading8{
+            flex-wrap: wrap;
+        }
+        #footer{
+        
+            flex-wrap: wrap;
+        }
+        #headingfurniture{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #aliquam{
+            display: flex;
             flex-wrap: wrap;
         }
         
@@ -132,7 +218,7 @@ padding-bottom: 10%;
 
 
 
-}
+} 
 
 
 
